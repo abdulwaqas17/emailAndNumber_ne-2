@@ -1,0 +1,15 @@
+{
+  "name": "email-and-phone-assgn-2",
+  "version": "1.0.0",
+  "description": "this is my 2nd assignment of node + express js",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "author": "waqas",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.2"
+  }
+}
