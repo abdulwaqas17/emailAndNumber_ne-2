@@ -10,7 +10,7 @@ const getStoredEmails = () => {
         if(!fs.existsSync(filePath)) {
 
             return ['waqas@gmail.com','zeeshan@gmail.com','anus@gmail.com','hasan@gmail.com','kashan@gmail.com']
-             // Agar file exist nahi karti, to empty array return karna
+             // Agar file exist nahi karti, to ye array return karna
 
         }
 
@@ -64,8 +64,8 @@ const emailSender = (req,res) => {
     // })
 
     usersEmail.push(email);
-    saveEmails(usersEmail)
-    console.log(usersEmail);
+    saveEmails(usersEmail);
+    // console.log(usersEmail);
     res.json({yourEmail : email, message : 'your email is valid'});
 
 }

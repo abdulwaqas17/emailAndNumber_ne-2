@@ -24,4 +24,10 @@ myRouter.get('/getNumbers',numbersController.allNumbers);
 
 
 
+myRouter.get('/', (req, res) => {
+    res.send('Welcome to the backend');
+});
+
+
+
 module.exports = myRouter;
